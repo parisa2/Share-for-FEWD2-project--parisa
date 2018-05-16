@@ -1,0 +1,76 @@
+
+ .container {
+    max-width: 100%;
+    max-width: 95%;
+     margin: 0 auto;
+}
+
+/*********/
+
+article {
+    box-shadow: -3px 3px rgb(233, 233, 233, 0.2);
+}
+
+.flex {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*from events*/
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+.storiesCol {
+    background-color: #e9e9e9;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .storiesCol {
+    padding: 0 15px;
+    flex-basis: 29%;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    
+                               /******* stories columns ******/
+    .storiesCol {
+    padding: 0 15px;
+    flex-basis: 29%;
+    }
+}
+
+
+
+    .hLessLineheight {
+    line-height: 1;
+        font-size: 1.5em;
+    }
+
+
+.storiesIconDate {
+         background-color: #dcd4e1;
+     }
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+    color: #6a304c;
+}
+
+ .readmoreHover {
+     color: #805a6c;
+     
+     
+ }
+ .readmoreHover:hover {
+     text-decoration: underline;
+     color: #6a304c;
+ }
+
